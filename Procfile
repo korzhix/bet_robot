@@ -1,1 +1,1 @@
-web: gunicorn bet_robot.wsgi
+web: gunicorn mybetrobot.wsgi

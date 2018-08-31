@@ -1,1 +1,1 @@
-web: gunicorn bet_robot.wsgi --log-file--
+web: gunicorn bet_robot.wsgi

@@ -49,6 +49,6 @@ def give_next():
 def send_message(mes):
 	vkapi.messages.send(user_id=u_id,message=mes)
 
-
+send_message("Worked!")
 
 

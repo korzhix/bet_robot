@@ -8,10 +8,10 @@ u_id = '370609037'#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 def auth():
 	#Cоздание сессии
 
-	login = '+79530838612'
-	password = 'y4k6p8ff_'
-	vk_id = '6451856'
-	token = 'c56a3c6fa8212ec0655a285b45fdfa59da166e93ce78ce09ac7943dbe8653f1180a0dc6d9b9a7447c5ba6'
+	login = ''
+	password = ''
+	vk_id = ''
+	token = ''
 
 	session = vk.Session(access_token=token)
 	vkapi = vk.API(session,v=5.75)
